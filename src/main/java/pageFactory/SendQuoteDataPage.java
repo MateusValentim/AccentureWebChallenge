@@ -89,10 +89,7 @@ public class SendQuoteDataPage {
 		return loading.isDisplayed();
 
 	}
-//	public String getMessageThankYou() {
-//		wait.until(ExpectedConditions.visibilityOf(messageThankYou));
-//		return messageThankYou.getText();
-//	}
+
 	
 	public void fill_PersonalDetails_SendQuote(SendQuoteData sendQuote) {
 		inputEmail(sendQuote.inputEmail);
